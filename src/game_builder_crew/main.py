@@ -1,5 +1,6 @@
 import sys
 import yaml
+from dotenv import load_dotenv
 from game_builder_crew.crew import GameBuilderCrew
 
 
