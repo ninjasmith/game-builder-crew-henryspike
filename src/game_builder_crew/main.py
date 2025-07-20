@@ -5,7 +5,6 @@ import subprocess
 from dotenv import load_dotenv
 from game_builder_crew.crew import GameBuilderCrew
 
-
 def check_langsmith_tracing():
     """Checks and prints the status of LangSmith tracing."""
     print("## Checking LangSmith Tracing Configuration")

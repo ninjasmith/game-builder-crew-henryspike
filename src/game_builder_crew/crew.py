@@ -2,6 +2,7 @@ from typing import List
 from crewai import Agent, Crew, Process, Task
 from crewai.project import CrewBase, agent, crew, task
 from langchain_openai import ChatOpenAI
+import os
 
 @CrewBase
 class GameBuilderCrew:
@@ -14,6 +15,8 @@ class GameBuilderCrew:
         # The default is "gpt-4o" if the variable is not set.
         # For example, to use GPT-4 Turbo, you can set model="gpt-4-turbo"
         self.llm = ChatOpenAI(model="gpt-4o")
+
+
 
 
     @agent
