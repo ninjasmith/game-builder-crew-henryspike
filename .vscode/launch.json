@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Python: Debug Game Builder",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/src/game_builder_crew/main.py",
+      "console": "integratedTerminal",
+      "justMyCode": true
+    }
+  ]
+}
